@@ -76,6 +76,7 @@ Make it executable and move it into your path:
 ```bash
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
+sudo usermod -aG docker $USER && newgrp docker
 ```
 
 ---
